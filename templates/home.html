@@ -1,0 +1,79 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Architects Daughter|Bungee Inline">
+<style>
+h1 {
+	color: blue;
+	font-family: "Audiowide", sans-serif;
+	font-size: 300%;
+	text-align: center;
+}
+p {
+	color: red;
+	font-family: courier;
+	font-family: 'Architects Daughter';
+	font-size: 70%;
+}
+b {
+	font-size: 20px;
+	font-family: "Trirong", serif;
+	text-align: left;
+	color: Indigo;
+	background-color: Azure;
+}
+input {
+	font-size: 20px;
+	font-family: "Sofia", sans-serif;
+	text-align: center;
+	color: MediumSeaGreen;
+	border: 2px solid Tomato;
+}
+body {
+	background-image: url('https://visit-health-prod.s3.eu-west-2.amazonaws.com/IMAGE/e96df8c0-962e-48fd-a173-57f1b9aece19.jpg');
+}
+</style>
+</head>
+
+
+<body>
+
+<h1>Diabetes Test App(Only Females)</h1>
+
+
+<form method='GET' action='/diabetes'>
+
+
+  <b> Number of times pregnant </b> <input type='number' name='p' step="1" placeholder="Integer-Object Only" required/><br /><br />
+  
+  
+  <b> Plasma glucose concentration in tolerance test </b> <input  type='number' name='pg' step="1" placeholder="Integer-Object Only" required/><br /><br />
+  
+  
+  <b> Diastolic blood pressure (mm Hg) </b> <input  type='number' name='bp' step="1" placeholder="Integer-Object Only" style= required/><br /><br />
+  
+  
+  <b> Triceps skin fold thickness (mm) </b> <input  type='number' name='sft' step="1" placeholder="Integer-Object Only" required/><br /><br />
+  
+  
+  <b> 2-Hour serum insulin (mu U/ml) </b> <input  type='number' name='in' step="1" placeholder="Integer-Object Only" required/><br /><br />
+  
+  
+  <b> Body mass index </b> <input  type='text' name='bm' step="1" placeholder="Float-Object Only" required/><br /><br />
+  
+  
+  <b> Diabetes pedigree function </b> <input  type='text' name='pf' step="1" placeholder="Float-Object Only" required/><br /><br />
+  
+  
+  <b> Age (years) </b> <input  type='number' name='ag' step="1" placeholder="Integer-Object Only" required><br /><br />
+  
+  
+  <input type='submit' value='Submit' style="font-family:Bungee Inline;cursor:pointer;"/>
+
+
+</form>
+
+<p><strong>Note:</strong> Click the "Submit" button to See the Result.<br />This is based upon the data that you entered. Don't be panic.</p>
+
+</body>
+</html>
